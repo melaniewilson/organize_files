@@ -22,7 +22,7 @@ A simple and smart Python script that organizes your messy folders into neatly c
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/file-organizer.git
+git clone https://github.com/melaniewilson/file-organizer.git
 cd file-organizer
 ```
 
