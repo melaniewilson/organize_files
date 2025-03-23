@@ -1,0 +1,11 @@
+# Ignore logs created by the organizer
+logs/
+file_moves_*.txt
+file-moves.txt
+
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
