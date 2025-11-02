@@ -1,23 +1,22 @@
-# 🗂️ File Organizer (Python)
+# File Organizer (Python)
 
-A simple and smart Python script that organizes your messy folders into neatly categorized subfolders based on file type — with undo support, logging, and clear feedback.
+A Python script that organizes your folders into categorized subfolders based on file type. Includes —undo support, logging, and feedback.
 
 ---
 
-## ✨ Features
+## Features
 
-- Organize any folder (default: `Downloads`)
-- Categorizes files into folders like Images, Documents, Code, etc.
+- Organize any folder (the default is the: `Downloads` folder)
+- Categorizes files into folders like Images, Documents, etc.
 - Automatically skips hidden files (like `.DS_Store`)
 - Saves a move log to a `logs/` folder with timestamps
 - Undo file moves after running
-- Friendly messages and clear UX
+- Provides messages and a clear UX
 - Command-line support
-- GUI version coming soon 👀
 
 ---
 
-## 🧰 How to Use
+## How to Use
 
 ### 1. Clone the repo
 
@@ -28,13 +27,13 @@ cd file-organizer
 
 ### 2. Run the script
 
-#### 🖥️ Option A: Organize your Downloads folder (default)
+#### Option A: Organize your Downloads folder (Downloads folder is the default)
 
 ```bash
 python organize_files.py
 ```
 
-#### 🗂️ Option B: Organize a specific folder
+#### Option B: Organize a specific folder
 
 ```bash
 python organize_files.py /path/to/your/folder
@@ -47,7 +46,7 @@ At the end of the run, the script will:
 
 ---
 
-## 📁 Example Folder Output
+## Example Folder Output
 
 If organizing a folder with mixed content, the result might look like this:
 
@@ -73,7 +72,7 @@ Downloads/
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - Python 3.7 or later
 - OS: macOS  
@@ -82,7 +81,7 @@ Downloads/
 
 ---
 
-## 🧪 Development Roadmap
+## Development Roadmap
 
 - [x] Command-line support (`argparse`)
 - [ ] GUI interface using `tkinter`
